@@ -3,7 +3,8 @@ public class Main {
         Persona agus = new Persona(12345678);
         System.out.println(agus.calcularEdad());
 
-        agus.setFechaNacimiento(12, 2, 1998);
+        agus.setFechaNacimiento(12, 12, 1998);
         System.out.println(agus.calcularEdad());
-    }
+        System.out.println(agus.getAll());
+   }
 }
